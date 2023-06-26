@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it apply specified theme for open/close states it applies default theme for open modal 1`] = `
+.c0 {
+  visibility: visible;
+  opacity: 1;
+  z-index: 6;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  min-width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: rgba(0,0,0,0.09) 0px 2px 1px,rgba(0,0,0,0.09) 0px 4px 2px,rgba(0,0,0,0.09) 0px 8px 4px,rgba(0,0,0,0.09) 0px 16px 8px,rgba(0,0,0,0.09) 0px 32px 16px;
+  border-radius: 1.5rem;
+  background: rgba(20,20,22,0.8);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  padding: 1.25rem;
+  -webkit-animation: dfiLNz 0.5s cubic-bezier(0.25,0.46,0.45,0.94) both;
+  animation: dfiLNz 0.5s cubic-bezier(0.25,0.46,0.45,0.94) both;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    padding: 0.75rem;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
